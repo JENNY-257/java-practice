@@ -28,8 +28,7 @@ public class AverrageArray {
     for(int i=0; i<arr.length; i++){
         totals = totals + arr[i];
     }
-
-
+    scanner.close();
     
     double aver = totals / arrays.length;
     
